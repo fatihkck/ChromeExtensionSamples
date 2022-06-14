@@ -15,5 +15,13 @@
 
     "options_page":"options.html",
 
-    "permissions":["storage"]
+    "background":{
+        "service_worker":"/assets/js/page/background.js"
+    },
+
+    "permissions":[
+        "storage",
+        "notifications",
+        "contextMenus"
+        ]
 }
