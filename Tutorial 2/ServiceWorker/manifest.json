@@ -1,0 +1,15 @@
+﻿{
+  "name": "Chapter 4 (MV3)",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "This is Chapter 4",
+  "permissions": ["tabs"],
+  "background": {
+    "service_worker": "event.js"
+  },
+  "action": {
+    "default_icon": "Chapter_4.png",
+    "default_title": "I am Chapter 4",
+    "default_popup": "popup.html"
+  }
+}

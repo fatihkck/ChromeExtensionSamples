@@ -1,0 +1,20 @@
+﻿{
+  "name": "Chapter 18 (MV3)",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "This is Chapter 18",
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "permissions": [
+    "cookies"
+  ],
+  "action": {
+    "default_title": "I am Chapter 18",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "32": "Chapter_18_32.png"
+    }
+  }
+}

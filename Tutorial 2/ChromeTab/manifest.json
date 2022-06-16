@@ -1,0 +1,13 @@
+﻿{
+  "name": "ChromeTab",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "This is ChromeTab",
+  "permissions": ["contextMenus"],
+  "background": {
+    "service_worker": "event.js"
+  },
+  "icons": {
+    "19": "Chapter_7.png"
+  }
+}

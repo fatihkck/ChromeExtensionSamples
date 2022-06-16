@@ -1,0 +1,19 @@
+﻿{
+  "name": "SendMessage",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "This is SendMessage",
+  "permissions": ["scripting"],
+  "host_permissions": [
+    "https://portal.veriban.com.tr//*/",
+    "http://portal.veriban.com.tr//*/"
+  ],
+  "background": {
+    "service_worker": "event.js"
+  },
+  "action": {
+    "default_icon": "Chapter_8.png",
+    "default_title": "I am Chapter 8",
+    "default_popup": "popup.html"
+  }
+}

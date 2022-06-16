@@ -1,0 +1,11 @@
+{
+    "name": "LocalStorage",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "This is Chapter 2",
+    "action": {
+      "default_icon": "Chapter_2.png",
+      "default_title": "I am Chapter 2",
+      "default_popup": "popup.html"
+    }
+  }

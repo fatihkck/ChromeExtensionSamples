@@ -1,0 +1,13 @@
+﻿{
+  "name": "Chapter 14 (MV3)",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "This is Chapter 14",
+  "action": {
+    "default_title": "I am Chapter 14",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "32": "Chapter_14_32.png"
+    }
+  }
+}

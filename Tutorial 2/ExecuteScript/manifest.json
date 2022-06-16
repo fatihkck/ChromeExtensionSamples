@@ -1,0 +1,16 @@
+﻿{
+  "name": "Execute Script",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "This is ExecuteScript",
+  "permissions": ["scripting"],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "action": {
+    "default_icon": "Chapter_5.png",
+    "default_title": "I am Chapter 5",
+    "default_popup": "popup.html"
+  }
+}

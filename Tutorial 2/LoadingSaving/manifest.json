@@ -1,0 +1,11 @@
+﻿{
+  "name": "Chapter 11 (MV3)",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "This is Chapter 11",
+  "action": {
+      "default_icon": "Chapter_11.png",
+      "default_title": "I am Chapter 11",
+      "default_popup": "popup.html"
+  }
+}

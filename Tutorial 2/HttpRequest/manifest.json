@@ -1,0 +1,17 @@
+﻿{
+  "name": "Chapter 15 (MV3)",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "This is Chapter 15",
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "action": {
+    "default_title": "I am Chapter 15",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "32": "Chapter_15_32.png"
+    }
+  }
+}

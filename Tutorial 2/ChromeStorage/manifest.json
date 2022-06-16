@@ -1,0 +1,17 @@
+﻿{
+  "name": "Chapter 13 (MV3)",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "This is Chapter 13",
+  "permissions": ["storage"],
+  "background": {
+    "service_worker": "event.js"
+  },
+  "action": {
+    "default_title": "I am Chapter 13",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "32": "Chapter_13_32.png"
+    }
+  }
+}

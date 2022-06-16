@@ -1,0 +1,13 @@
+﻿{
+  "name": "Context Menu",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "This is ContextMenu",
+  "permissions": ["contextMenus"],
+  "background": {
+    "service_worker": "event.js"
+  },
+  "icons": {
+    "19": "Chapter_6.png"
+  }
+}

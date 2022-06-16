@@ -1,0 +1,35 @@
+{
+    "manifest_version":3,
+    "name":"PageFontStyle Extension",
+    "version":"1.0",
+    "description":"Changes font style on a specific page",
+
+    "icons":{
+        "128":"/assets/images/icon1_128.png"
+    },
+
+    "action":{
+        "default_icon":"/assets//images/icon1_128.png",
+        "default_popup":"popup.html",
+        "default_title":"PageFontStyle"
+    },
+
+    "background":{
+        "service_worker":"/assets/js/page/background.js"
+    },
+
+    "content_scripts":[
+        {
+            "matches":["https://portal.veriban.com.tr/*"],
+            "js":["content.js","/assets/js/core/jquery-3.6.0.min.js"],
+            "css":["content.css"]
+        }
+    ],
+
+    "permissions":[
+        "tabs",
+        "activeTab",
+        "scripting"
+      
+    ]
+}
