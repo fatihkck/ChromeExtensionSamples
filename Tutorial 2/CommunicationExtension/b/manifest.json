@@ -1,0 +1,17 @@
+﻿{
+  "name": "Chapter 31b (MV3)",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "This is Chapter 31b",
+  "permissions": ["storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "I am Chapter 31b",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "32": "Chapter_31b_32.png"
+    }
+  }
+}
